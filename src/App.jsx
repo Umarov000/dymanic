@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import AppRoutes from "./pages";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <AppRoutes />
+    </>
+  );
+};
 
-export default App
+export default App;
